@@ -29,7 +29,7 @@ eureka:
 
 resilience4j.retry:
   instances:
-    retryInscription:
+    retryCatalogo:
       maxAttempts: 3
       waitDuration: 10s
       enableExponentialBackoff: true
